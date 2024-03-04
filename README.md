@@ -8,11 +8,11 @@ Tema da equipe: Sistema de Acompanhamento Ortodôntico
 	Vinicius Leite Ferreira Alves,
 	Francisco Emmanuel Marcolino Lino Dos Santos
 
-1 - Diagrama de caso de uso:
+1 - Diagrama de Casos de Uso:
 
 ![Diagrama caso de uso](Documentação/diagramaCasoDeUso.PNG)
 
-2 - Diagrama de classe de análise (Fronteira, Entidade e Controle):
+2 - Diagrama de Classe de Análise (Fronteira, Entidade e Controle):
 
 ![Diagrama de classe de análise](Documentação/diagramaDeClasseDeAnálise.jpeg)
 
