@@ -12,7 +12,7 @@ Tema da equipe: Sistema de Acompanhamento Ortodôntico
 
 ![Diagrama caso de uso](Documentação/diagramaCasoDeUso.PNG)
 
-2 - Elaborem um diagrama de classe de análise (Fronteira, Entidade e Controle):
+2 - Diagrama de classe de análise (Fronteira, Entidade e Controle):
 
-![Diagrama de classe de análise](Documentação/Diagrama de Classe de Análise - MPS.jpeg)
+![Diagrama de classe de análise](Documentação/diagramaDeClasseDeAnálise.jpeg)
 
