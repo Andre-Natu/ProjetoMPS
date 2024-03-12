@@ -16,3 +16,7 @@ Tema da equipe: Sistema de Acompanhamento Ortodôntico
 
 ![Diagrama de classe de análise](Documentação/diagramaDeClasseDeAnálise.jpeg)
 
+3 - Descrição da interface com o usuário:
+
+![Descrição da interface com o usuário](Documentação/prototipo/previewPrototipo.jpeg)
+
