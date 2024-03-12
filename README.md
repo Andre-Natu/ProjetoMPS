@@ -18,5 +18,5 @@ Tema da equipe: Sistema de Acompanhamento Ortodôntico
 
 3 - Descrição da interface com o usuário:
 
-![Descrição da interface com o usuário](Documentação/prototipo/previewPrototipo.jpeg)
+![Descrição da interface com o usuário](Documentação/prototipo/previewPrototipo.jpg)
 
