@@ -3,6 +3,10 @@ from pydantic import BaseModel
 from schemas.user import UserSchema
 from models.models import User
 from controller.user import create_user_db, get_users_db
+from database import SessionLocal, Base, engine
+
+Base.metadata.create_all(engine)
+db=SessionLocal()
 
 app = FastAPI()
 
