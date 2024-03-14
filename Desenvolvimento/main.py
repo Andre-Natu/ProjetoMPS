@@ -6,7 +6,7 @@ from controller.user import create_user_db, get_users_db
 from database import SessionLocal, Base, engine
 
 Base.metadata.create_all(engine)
-db=SessionLocal()
+db = SessionLocal()
 
 app = FastAPI()
 
@@ -16,8 +16,8 @@ async def home():
 
 @app.get("/users")
 async def get_users():
-    return get_users_db()
+    return get_users_db(db)
 
 @app.post("/users/")
 async def create_user(user: UserSchema):
-    return create_user_db(user)
+    return create_user_db(user, db)

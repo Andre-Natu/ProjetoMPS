@@ -4,14 +4,11 @@ from schemas.user import UserSchema
 from validation import UserValidation
 import json
 
-def get_users_db():
-    with open('banco.txt', 'r') as file:
-        file = ''.join(file.readlines()).replace('"', '').strip()
-        print(file)
+def get_users_db(db):
+    users = db.query(User).all()
+    return users
 
-    return 'Success ⭐️'
-
-def create_user_db(user: UserSchema):
+def create_user_db(user: UserSchema, db):
     try:
         UserValidation.validate_all(user.username, user.email, user.password)
 
@@ -21,10 +18,8 @@ def create_user_db(user: UserSchema):
             password=user.password
         )
 
-        with open('banco.txt', 'a') as file:
-            file.write(json.dumps(new_user.username) + '\n')
-            file.write(json.dumps(new_user.email) + '\n')
-            file.write(json.dumps(new_user.password) + '\n\n')
+        db.add(new_user)
+        db.commit()
 
         return new_user
 
