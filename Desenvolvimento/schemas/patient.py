@@ -1,6 +1,6 @@
 from pydantic import BaseModel
 
-class UserSchema(BaseModel):
+class PatientSchema(BaseModel):
     username: str
     email: str
     password: str
