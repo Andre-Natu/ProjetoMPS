@@ -1,3 +1,3 @@
 class ThirdPartySMSService:
-    def send_sms(self, to: str, message: str):
+    def send_message(self, to: str, message: str):
         pass

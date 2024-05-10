@@ -2,7 +2,7 @@ from sqlalchemy.orm import Session
 from models.models import Patient
 from schemas.patient import PatientSchema
 from business.patient_repository import PatientRepository
-from validation import PatientValidation
+from validation import Validation
 from fastapi import HTTPException, status
 
 class SQLAlchemyPatientRepository(PatientRepository):
@@ -16,7 +16,7 @@ class SQLAlchemyPatientRepository(PatientRepository):
 
     def create_patient(self, patient: PatientSchema):
         try:
-            PatientValidation.validate_all(patient.username, patient.email, patient.password)
+            Validation.validate_all(patient.username, patient.email, patient.password)
 
             new_patient = Patient(
                 username=patient.username,

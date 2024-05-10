@@ -1,7 +1,7 @@
 from fastapi import HTTPException, status
 import re
 
-class PatientValidation:
+class Validation:
     @staticmethod
     def validate_username(username):
         if len(username) > 12:
@@ -28,7 +28,7 @@ class PatientValidation:
     
     @staticmethod
     def validate_all(username, email, password):
-        PatientValidation.validate_username(username)
-        PatientValidation.validate_email(email)
-        PatientValidation.validate_password(password)
+        Validation.validate_username(username)
+        Validation.validate_email(email)
+        Validation.validate_password(password)
         
