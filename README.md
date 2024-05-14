@@ -16,7 +16,7 @@ Link do documento de requisitos: https://docs.google.com/document/d/19ApEQVG5Abn
 
 2 - Diagrama de Classe de Análise (Fronteira, Entidade e Controle):
 
-![Diagrama de classe de análise](Documentação/diagramaDeClasseDeAnálise.jpeg)
+![Diagrama de classe de análise](Documentação/Diagrama de Classe de Análise Final - MPS.png)
 
 3 - Descrição da interface com o usuário:
 
