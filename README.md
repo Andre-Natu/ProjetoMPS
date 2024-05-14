@@ -12,7 +12,7 @@ Link do documento de requisitos: https://docs.google.com/document/d/19ApEQVG5Abn
 
 1 - Diagrama de Casos de Uso:
 
-![Diagrama caso de uso](Documentação/diagramaCasoDeUso.PNG)
+![Diagrama caso de uso](Documentação/diagramaCasoDeUsoAtualizado.PNG)
 
 2 - Diagrama de Classe de Análise (Fronteira, Entidade e Controle):
 
