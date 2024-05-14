@@ -8,6 +8,8 @@ Tema da equipe: Sistema de Acompanhamento Ortodôntico
 	Vinicius Leite Ferreira Alves,
 	Francisco Emmanuel Marcolino Lino Dos Santos
 
+Link do documento de requisitos: https://docs.google.com/document/d/19ApEQVG5AbntCo4Z4OvCfJrC70aX5jOUWo13hSR1gDY/edit
+
 1 - Diagrama de Casos de Uso:
 
 ![Diagrama caso de uso](Documentação/diagramaCasoDeUso.PNG)
